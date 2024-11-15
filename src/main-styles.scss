@@ -1,0 +1,23 @@
+//global styles and chamging buma variables
+
+//import Google fonts
+
+$family-sans-serif: "Nunito", sans-serif;
+
+//Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-boder-color: trasparent;
+$input-shadow: none;
+
+// Global styles
+
+html,body {
+  height: 100%;
+}
+
+html {
+  background-image: url("./assets/background.png");
+  background-size: cover;
+
+  overflow: auto !important;
+}
